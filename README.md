@@ -73,7 +73,7 @@ CodeKitなどもツールはあるけども‥‥
 各パッケージを導入します
 
 1. ```npm install -g gulp```
-1. ```npm init```
+1. ```npm init``` 聞いてくるのは全部EnterでもOK（とりあえず)
 2. ```npm install --save-dev gulp gulp-sass gulp-autoprefixer browser-sync gulp-sourcemaps gulp-plumber```
 
 ---
