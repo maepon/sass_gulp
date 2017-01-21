@@ -2,6 +2,10 @@
 
 ---
 
+# [fit]https://github.com/maepon/sass_gulp
+
+---
+
 ## 今日の目標
 
 1. SassからCSSが出力できる
@@ -30,6 +34,7 @@ scssファイルを編集するとCSSが編集される
 
 ## リロードがいちいち面倒なので
 
+1. ```npm install -g browser-sync```
 1. 新しいウィンドウでコマンドプロンプト（ターミナル）を開く
 2. ```browser-sync start --server --files "css/*.css"```
 
@@ -67,6 +72,7 @@ CodeKitなどもツールはあるけども‥‥
 
 各パッケージを導入します
 
+1. ```npm install -g gulp```
 1. ```npm init```
 2. ```npm install --save-dev gulp gulp-sass gulp-autoprefixer browser-sync gulp-sourcemaps gulp-plumber```
 
