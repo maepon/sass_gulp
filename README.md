@@ -197,6 +197,16 @@ gulp.task('default',function(){
 
 ---
 
+## プラクティス
+
+1. 新しいディレクトリ（フォルダ）を作る
+2. package.jsonとGulpfile.jsをコピー
+3. scssディレクトリとcssディレクトリを作る
+4. 作ったディレクトリでコマンドを開く
+5. `npm install`
+
+---
+
 ## では、Sassに戻りましょう
 
 基本的な動作はここに解説が
