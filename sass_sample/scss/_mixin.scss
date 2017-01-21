@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+$bpSphone: 768px;
+
+@mixin sphone {
+  //スマートフォン縦の場合
+  @media only screen and (max-width: $bpSphone) {
+    @content;
+  }
+}

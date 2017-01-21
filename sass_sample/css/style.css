@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.pageHeader {
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #1A77B4;
+  color: #fff;
+  text-align: center;
+}
+
+.profile {
+  margin: 0 auto;
+  padding: 0 0.5em;
+  max-width: 1200px;
+}
+
+.profile__member {
+  float: left;
+  width: 33.333333%;
+  box-sizing: border-box;
+  padding: 0 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile__member {
+    float: none;
+    width: auto;
+  }
+}
+
+.profile__member::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.profile__member:nth-child(odd) {
+  background-color: #1A77B4;
+  color: #fff;
+}
+
+.profile__data {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.profile__data p {
+  margin: 0;
+}
+
+.profile__image {
+  float: right;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.profile::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.siteFooter {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=maps/style.css.map */
