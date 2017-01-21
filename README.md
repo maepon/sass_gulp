@@ -143,3 +143,57 @@ gulp.task('serve',['sass'],function(){
 
 gulp.task('default',['serve']);
 ```
+
+---
+
+それぞれがどういう意味かをざっくり解説
+
+---
+
+## では、Sassに戻りましょう
+
+基本的な動作はここに解説が
+
+[http://sass-lang.com/guide](http://sass-lang.com/guide)
+
+---
+
+### 他に覚えておきたい
+
+#### 「`&`」
+
+```scss
+.list{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  &__item{
+    width: calc(50% - 10px);
+  }
+  #top &{
+    width: 100%;
+  }
+}
+```
+---
+
+#### 「`#{....}`」
+
+```scss
+$img_path: "../img/";
+.hoge{
+  background-image: url(#{$img_path}main_bg.jpg);
+}
+```
+
+---
+
+### 他にもこちらがおすすめ
+
+現場で役立つ実践Sass（1）Sassの環境を整える | Adobe Creative Station<br> [https://blogs.adobe.com/creativestation/web-practical-sass-01-dev-environment](https://blogs.adobe.com/creativestation/web-practical-sass-01-dev-environment)
+
+---
+
+## Bootstrap4
+
+のSassもこのGulpファイルでコンパイルできます
