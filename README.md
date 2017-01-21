@@ -152,6 +152,12 @@ gulp.task('default',['serve']);
 
 ---
 
+## gulp generator
+
+[http://steelydylan.github.io/gulp-generator/](http://steelydylan.github.io/gulp-generator/)
+
+---
+
 それぞれがどういう意味かをざっくり解説
 
 ---
